@@ -1,14 +1,16 @@
-var test1 = 1;
-var test2 = 2;
-var test3 = 3;
-var test4 = 4;
-
-var helloWorld = function () {
-	console.log(get());
+var obj = {
+	test1: 1,
+	test2: 2,
+	test3: 3,
+	test4: 4
 };
 
-var get = function () {
-	return test1;
+var logProperty = function (prop) {
+	console.log(get(prop));
 };
 
-helloWorld();
+var get = function (prop) {
+	return obj[prop];
+};
+
+logProperty('test1');
