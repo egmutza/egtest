@@ -1,0 +1,15 @@
+{
+	"name": "egtest",
+	"title": "egtest",
+	"version": "0.0.0",
+	"homepage": "http://eric.gmutza.com",
+	"author": {
+		"name": "Eric Gmutza",
+		"email": "egmutza@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/egmutza/egtest.git"
+	},
+	"keywords": []
+}
