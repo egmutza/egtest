@@ -18,7 +18,7 @@ var logAllProps = function () {
 	Object.keys(obj).forEach(function (key) {
 		allProps.push(obj[key]);
 	});
-	console.log(allProps.join(', '));
+	console.log(allProps.join(' | '));
 }
 
 logProperty('test1');
