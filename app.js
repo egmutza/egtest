@@ -21,4 +21,4 @@ var logAllProps = function () {
 	console.log(allProps.join(', '));
 }
 
-logProperty('test1');
+logAllProps();
